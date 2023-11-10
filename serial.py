@@ -25,7 +25,7 @@ class SerialGenerator:
         self.gen_count = -1
     
     def __repr__(self):
-        return f'Serial number generator with initial value of {self.start}'
+        return f'Serial number generator with initial value of {self.start}. Next value will be {self.start +1}'
 
     def generate(self):
         '''generate next serial number'''
